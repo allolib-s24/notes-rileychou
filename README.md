@@ -5,7 +5,7 @@ All code linked in demo repo: https://github.com/allolib-s24/demo1-rileychou
 This is a short transcript of a song called All The Pretty Little Horses. I transcribed the Tenor line of when I sang it in choir. 
 
 
-To hear it, run `./run.sh tutorials/synthesis/01_SineEnv_Piano.cpp`. Once the app opens, select `test` in the list of sequences, and hit play. 
+To hear it, run `./run.sh tutorials/synthesis/01_SineEnv_Piano.cpp`. Once the app opens, select `test` in the list of synth sequences, and hit play. 
 
 Video: 
 
@@ -31,8 +31,14 @@ To hear it, run `./run.sh tutorials/synthesis/01_SineEnv_vib.cpp`. Once the app 
 # Final Project:
 ## Jaminator (Inspired by Phineas and Ferb)
 
-For this project, 
+For this project, I wanted to make an easy entry point for people to jam along to midi files by playing some beats and notes over it.
 
-## Final Project Demo
+It features: Snare drum, bass drum, cymbal, and random pentatonic note in the key of A flat (same key as Phineas and Ferb). 
 
-https://github.com/allolib-s24/notes-nagpalishaan/assets/86748731/c11fd614-c0ee-49a3-9796-229f5967f720
+The randomly generated pentatonic scale sounds unmusical until I started trying to play along with the melody. After my demo, Professor Conrad introduced to me a composition technique called "Skip and Step" where certain notes are more likely to play after a certain note is played to make the music flow more naturally. 
+
+To play, run `./run.sh experiments/jaminator.cpp`. Once the app opens, Once the app opens, select `phineasandferb` in the list of synth sequences, and hit play. Use the key 'd' for snare, 's' for bass, and 'c' for cymbal. Play the random pentatonic note using the key 'k'. 
+
+## Final Project Demo Video
+
+https://www.youtube.com/watch?v=rZaRl8dq51I
